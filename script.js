@@ -8,6 +8,16 @@ function bgrChange() {
     if (button.style.textAlign === 'right') {
         button.style.textAlign = 'left';
     } else {
-        button.style.textAlign = 'right'
+        button.style.textAlign = 'right';
     }
+}
+
+function counterPlus() {
+    count = document.getElementById("count").innerHTML;
+    document.getElementById("count").innerHTML = parseInt(count) + 1;
+}
+
+function counterMinus() {
+    count = document.getElementById("count").innerHTML;
+    document.getElementById("count").innerHTML = parseInt(count) - 1;
 }

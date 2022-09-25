@@ -34,3 +34,18 @@ body {
     font-weight: bolder;
     color: rgb(179, 169, 169);
 }
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.count-btn {
+    font-size: 2rem;
+}
+
+button {
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+}
