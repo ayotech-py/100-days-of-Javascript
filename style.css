@@ -1,0 +1,36 @@
+body {
+    margin-top: 1rem;
+    background-color: aqua;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.header {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgr-btn {
+    border: 1px solid grey;
+    width: 4.5rem;
+    border-radius: 45px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bgr-btn h3 {
+    font-size: 3rem;
+    margin: -17px 10px -10px 0px;
+    font-weight: bolder;
+    color: rgb(179, 169, 169);
+}
